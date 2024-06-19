@@ -8,6 +8,18 @@ my_tuple = (1, "apple", 3.14)
 for i in range(len(my_tuple)):
   print(my_tuple[i])
   
-my_tuple = (1, "apple", 3.14)
-for num, fruit, pi in my_tuple:
-  print(num, fruit, pi)
+for n in my_tuple:
+  print(n)
+  
+my_dict = {"name": "Mercy",
+"age": 30, 
+"city": "New York"
+}
+for key in my_dict:
+  print(key, my_dict[key])
+  
+for key, value in my_dict.items():
+  print(key, value)
+
+for value in my_dict.values():
+  print(value)
