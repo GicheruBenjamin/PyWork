@@ -23,3 +23,12 @@ A loop iterates through the keys of the dictionary. To access the corresponding 
 A loop uses the items() method of the dictionary. It returns a view object containing key-value pairs as tuples. The loop unpacks each tuple into key and value variables.
 3. for loop with values:
 A loop uses the values() method to get a view object containing only the values of the dictionary. The loop iterates through each value directly.
+
+
+# Enumaration(enum.py)
+
+In Python, there are two concepts related to enumeration:
+
+1. enumerate function: This built-in function helps iterate through an iterable(sequences) (like a list, tuple, or string) and get both the index (position) and the element value at that position.
+
+2. enum module: This module, introduced in Python 3.4, provides a way to create custom enumerations. These are essentially user-defined sets of symbolic names (members) associated with unique values.
