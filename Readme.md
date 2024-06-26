@@ -37,3 +37,12 @@ In Python, there are two concepts related to enumeration:
 
 enumerate is a function for iterating with index access, while enum is a module for creating custom enumerations with named constants.
 enumerate works with any iterable, while enum creates a new class to hold the enumeration members.
+
+## Binary Search (bs.py)
+Def :left is 0 and right is arrays end i.e -1 the length. Mid is left + right divide 2.
+@Start with the middle element of the array.
+@If the middle element is the target value, return its index.
+@If the middle element is greater than the target value, search the left half of the array.
+@If the middle element is less than the target value, search the right half of the array.
+@Repeat steps 1-4 until the target value is found or the search interval is empty.
+
