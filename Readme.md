@@ -46,3 +46,8 @@ Def :left is 0 and right is arrays end i.e -1 the length. Mid is left + right di
 @If the middle element is less than the target value, search the right half of the array.
 @Repeat steps 1-4 until the target value is found or the search interval is empty.
 
+## Sorting (sortB.py)
+sorted(list) for 1st example.
+list.sort(function) returns sorted list. Both .sorted(list) and list.sort(function) are equivalent, return sorted lists and built-in functions
+
+
