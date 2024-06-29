@@ -50,4 +50,6 @@ Def :left is 0 and right is arrays end i.e -1 the length. Mid is left + right di
 sorted(list) for 1st example.
 list.sort(function) returns sorted list. Both .sorted(list) and list.sort(function) are equivalent, return sorted lists and built-in functions
 
+## Stacks and queues Simplified(deque.py)
+
 
