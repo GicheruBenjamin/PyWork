@@ -51,5 +51,6 @@ sorted(list) for 1st example.
 list.sort(function) returns sorted list. Both .sorted(list) and list.sort(function) are equivalent, return sorted lists and built-in functions
 
 ## Stacks and queues Simplified(deque.py)
+From the collections module u get a deque class in which u can create a stack and a queue from it. It supports ops for it to operate that way. $$FIFO & $$LIFO
 
 
