@@ -53,4 +53,25 @@ list.sort(function) returns sorted list. Both .sorted(list) and list.sort(functi
 ## Stacks and queues Simplified(deque.py)
 From the collections module u get a deque class in which u can create a stack and a queue from it. It supports ops for it to operate that way. $$FIFO & $$LIFO
 
+## Counter (counter.py)
+The Counter class from the collections module in Python is a powerful tool for counting occurrences of elements in a collection, such as a list, tuple, or string. Here's a quick reference document on the Counter class, including its commonly used methods and operations:
+Counter Class in Python:
+Importing: Import the Counter class from the collections module using from collections import Counter.
+Creation: Create a Counter object by passing an iterable (list, tuple, string, etc.) to the Counter constructor. For example, counter = Counter([1, 2, 2, 3]).
+Output Format: The Counter object displays elements as keys and their counts as values. Example: Counter({2: 2, 1: 1, 3: 1}).
+Accessing Counts: Access the count of a specific element using square brackets. Example: print(counter[2]).
+Most Common Elements: Find the most common elements using the most_common() method. Example: print(counter.most_common(3)).
+Element Presence: Check if an element is present in the Counter using the contains() method. Example: if 2 in counter: ....
+Updating Counts: Update the count of an element using the update() method. Example: counter.update([2, 3, 3]).
+Combining Counters: Combine two Counter objects using arithmetic operations like +, -, or &. Example: new_counter = counter1 + counter2.
+Subtracting Counters: Subtract one Counter from another using the - operator. Example: difference_counter = counter1 - counter2.
+Element Removal: Remove an element from the Counter using the subtract() method. Example: counter.subtract([2]).
+Clearing Counter: Clear all counts using the clear() method. Example: counter.clear().
+Total Count: Get the total count of all elements using the total() method. Example: total_count = counter.total().
+Elements with Zero Count: Get elements with zero count using the elements() method. Example: zero_count_elements = counter.elements() & counter2.elements().
+Iteration: Iterate over elements and their counts using the items() method. Example: for item, count in counter.items(): ....
+Dictionary Conversion: Convert the Counter to a dictionary using the dict() method. Example: counter_dict = counter.dict().
+List of Elements: Get a list of unique elements using the keys() or elements() method. Example: unique_elements = counter.keys().
+The Counter class is particularly useful for tasks involving frequency analysis, counting occurrences, and finding the most common elements in a collection. It provides an efficient and convenient way to work with data where element counts are important.
+
 
