@@ -74,4 +74,13 @@ Dictionary Conversion: Convert the Counter to a dictionary using the dict() meth
 List of Elements: Get a list of unique elements using the keys() or elements() method. Example: unique_elements = counter.keys().
 The Counter class is particularly useful for tasks involving frequency analysis, counting occurrences, and finding the most common elements in a collection. It provides an efficient and convenient way to work with data where element counts are important.
 
+## Conversion of types(conv.py)
+List to Tuple: When you want to create an immutable sequence of elements.
+Tuple to List: When you need to modify the elements or perform operations that require a mutable sequence.
+List/Tuple to Set: To remove duplicate elements and create a unique collection.
+Set to List/Tuple: To convert a unique collection back to a sequence.
+Dictionary to List of Tuples: To iterate over key-value pairs or to create a sorted list of keys/values.
+List of Tuples to Dictionary: To create a dictionary from a list of key-value pairs.
+String to List/Tuple: To treat a string as a sequence of characters for processing or manipulation.
+
 
