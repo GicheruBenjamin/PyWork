@@ -108,4 +108,5 @@ Advantage: Character-level processing. Converting a string to a list or tuple al
 - Methods/Properties: Lists and tuples provide indexing, slicing, and iteration capabilities for character-level operations.
 In summary, data structure conversions offer advantages such as immutability, mutability, duplicate removal, ordered sequences, efficient key-based access, and character-level processing. The choice of conversion depends on the specific requirements of your program, including the need for immutability, uniqueness, efficient access, and the desired methods or properties provided by the target data structure.
 
-
+## Styling your output(styit.py)
+You can style your output of your iterable by unpacking it 1st , then add a seperator(sep = '') and then and something at the end (end = '' I have used a line break)
