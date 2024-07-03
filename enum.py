@@ -1,4 +1,4 @@
-from typing import List 
+''' from typing import List 
 
 my_snacks:List[str] = ["soda", "cookies", "biscuits", "cereal"]
 
@@ -17,4 +17,9 @@ class teachers(Enum):
     TR = "teacher"
     OTH = "other"
     
-print(teachers.LEC.value) # Output "lecturer"
+print(teachers.LEC.value) # Output "lecturer" '''
+
+
+colors= ["red", "green", "blue", "yellow"]
+for i, cl in enumerate(colors):
+    print({i:cl})
