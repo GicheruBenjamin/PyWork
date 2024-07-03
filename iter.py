@@ -23,3 +23,6 @@ for key, value in my_dict.items():
 
 for value in my_dict.values():
   print(value)
+  
+  
+my_loc = '12E', '5N', '8W', '2S'; print(type(my_loc)) #output <class 'tuple'>
