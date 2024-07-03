@@ -14,6 +14,8 @@ A loop iterates through the indices of a tuple and uses them to access elements 
 2. for loop with unpacking
 A loop unpacks the elements of the tuple into variablesin each iteration.
 
+  **note** - Did u know unless you having an empty tuple u don't need brackets Now U know. 
+
 - Dictionaries:
 
 Dictionaries are collections of key-value pairs. Keys must be unique and immutable. There are multiple ways to iterate through dictionaries depending on what you want to access.
