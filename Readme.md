@@ -119,3 +119,6 @@ There are several ways to work with files. 1st the usual way by .open & .close. 
 
 ##  Class Composition(cl.py)
 Composition involves defining a class that includes instances of other classes as its attributes. This allows you to create complex objects by combining simpler objects. The composite class can provide methods and properties that interact with the contained instances, offering a higher level of abstraction and functionality.In the code, I have three classes: Address, Person, and Employee. The Employee class demonstrates composition by containing instances of the Person and Address classes as its attributes. The Employee class provides a higher-level abstraction by encapsulating the Person and Address instances and offering a method to retrieve employee information
+
+## Caching(cache.py)
+In the commented example it takes long time to finish the operation but due to use of lru cache from func_tools it takes less time to complete the operation in the operation.
