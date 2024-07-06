@@ -122,3 +122,6 @@ Composition involves defining a class that includes instances of other classes a
 
 ## Caching(cache.py)
 In the commented example it takes long time to finish the operation but due to use of lru cache from func_tools it takes less time to complete the operation in the operation.
+
+## Statistics(matstat.py)
+There is a statistics module available to help to do statistics e.g mean, mode & median.
