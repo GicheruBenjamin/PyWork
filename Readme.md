@@ -128,9 +128,9 @@ There is a statistics module available to help to do statistics e.g mean, mode &
 
 ## Unique elements(unique.py)
 There are several ways to find unique elements:
-<div>
+
 set(list): Convert the list to a set, which automatically removes duplicates.
 List Comprehension: Use a list comprehension with a condition to filter out duplicates.
 Loop and Set: Iterate through the list, adding unique elements to a set, then convert back to a list.
 collections.Counter: Use the Counter class to count occurrences and filter out duplicates.
-list.count(): Iterate through the list, filtering elements with a count greater than 1</div>
+list.count(): Iterate through the list, filtering elements with a count greater than 1
