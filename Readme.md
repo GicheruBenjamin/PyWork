@@ -134,3 +134,6 @@ List Comprehension: Use a list comprehension with a condition to filter out dupl
 Loop and Set: Iterate through the list, adding unique elements to a set, then convert back to a list.
 collections.Counter: Use the Counter class to count occurrences and filter out duplicates.
 list.count(): Iterate through the list, filtering elements with a count greater than 1
+
+## Permutations and Combinations(percomb.py)
+From collections import combinations and permutations to use them.
