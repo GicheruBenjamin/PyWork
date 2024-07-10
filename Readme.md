@@ -137,3 +137,6 @@ list.count(): Iterate through the list, filtering elements with a count greater 
 
 ## Permutations and Combinations(percomb.py)
 From collections import combinations and permutations to use them.
+
+## Lambda curring(curr.py)
+One can actually use lambda funcs to curr another lambda function. Have it inside another allows one to call their args side by side.()()
