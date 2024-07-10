@@ -140,3 +140,6 @@ From collections import combinations and permutations to use them.
 
 ## Lambda curring(curr.py)
 One can actually use lambda funcs to curr another lambda function. Have it inside another allows one to call their args side by side.()()
+
+## Dict call and access ways(access.py)
+Instead of using dict[key] to get the value of a key one can use dict.get(key) to get the value of the key.
