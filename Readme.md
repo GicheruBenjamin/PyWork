@@ -143,3 +143,6 @@ One can actually use lambda funcs to curr another lambda function. Have it insid
 
 ## Dict call and access ways(access.py)
 Instead of using dict[key] to get the value of a key one can use dict.get(key) to get the value of the key.
+
+## Rock, Paper , scissors(rps.py)
+Generate random from random  Have one input choice and compare with the computer's choice. Done right one wins and wrong one loses if doesn't match.
