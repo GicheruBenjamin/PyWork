@@ -1,26 +1,29 @@
 
 
+
+
+# Function for computer to chose from a list of strings
 import random
 
 def play_rps():
     choices = ["rock", "paper", "scissors"]
+    player_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
+    
+    while player_choice not in choices:
+        print("Invalid choice. Please enter 'rock', 'paper', or 'scissors'.")
+        player_choice = input("Enter your choice: ").lower()
+    
     computer_choice = random.choice(choices)
-    user_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
-    
-    if user_choice not in choices:
-        print("Invalid choice. Please choose rock, paper, or scissors.")
-        return
-    
     print(f"Computer chose: {computer_choice}")
-    print(f"You chose: {user_choice}")
     
-    if user_choice == computer_choice:
+    if player_choice == computer_choice:
         print("It's a tie!")
-    elif (user_choice == "rock" and computer_choice == "scissors") or \
-         (user_choice == "paper" and computer_choice == "rock") or \
-         (user_choice == "scissors" and computer_choice == "paper"):
+    elif (player_choice == "rock" and computer_choice == "scissors") or \
+         (player_choice == "paper" and computer_choice == "rock") or \
+         (player_choice == "scissors" and computer_choice == "paper"):
         print("You win!")
     else:
         print("You lose!")
 
-play_rps()
+if __name__ == "__main__":
+    play_rps()
