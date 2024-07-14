@@ -146,3 +146,6 @@ Instead of using dict[key] to get the value of a key one can use dict.get(key) t
 
 ## Rock, Paper , scissors(rps.py)
 Generate random from random  Have one input choice and compare with the computer's choice. Done right one wins and wrong one loses if doesn't match.
+
+## Loop(loops.py)
+For and while loops are implemented to repetetively do tasks. While loops are mainly used for situations where the computer doesn not know what to do. For loops are implemented when the computer is given a range of things or a defined approach.
