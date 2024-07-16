@@ -75,6 +75,7 @@ Iteration: Iterate over elements and their counts using the items() method. Exam
 Dictionary Conversion: Convert the Counter to a dictionary using the dict() method. Example: counter_dict = counter.dict().
 List of Elements: Get a list of unique elements using the keys() or elements() method. Example: unique_elements = counter.keys().
 The Counter class is particularly useful for tasks involving frequency analysis, counting occurrences, and finding the most common elements in a collection. It provides an efficient and convenient way to work with data where element counts are important.
+ - perf_counter =  used to see the time used to do some work. Though the difference is small when do the recursion with and without caching. 
 
 ## Conversion of types(conv.py)
 List to Tuple: When you want to create an immutable sequence of elements.
