@@ -168,7 +168,7 @@ Example: Division by zero, accessing a non-existent file.
 3. Logical Errors
 Occur when the code runs without errors but produces incorrect results.
 Example: Incorrectly implemented algorithm.
- + + Common exceptions:
+### Common exceptions:
 
 BaseException: This is the base class for all exceptions in Python. It's rarely used directly.
 
