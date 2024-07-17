@@ -168,3 +168,37 @@ Example: Division by zero, accessing a non-existent file.
 3. Logical Errors
 Occur when the code runs without errors but produces incorrect results.
 Example: Incorrectly implemented algorithm.
+ + + Common exceptions:
+
+BaseException: This is the base class for all exceptions in Python. It's rarely used directly.
+
+Exception: This is a subclass of BaseException. Most user-defined exceptions and built-in exceptions are derived from this class.
+
+ZeroDivisionError: This exception is raised when the second argument of a division or modulo operation is zero.
+
+TypeError: This exception is raised when an operation or function is applied to an object of inappropriate type. For example, trying to concatenate a string and an integer will raise a TypeError.
+
+ValueError: This exception is raised when a function gets an argument that has the right type but an inappropriate value.
+
+KeyError: This exception is raised when a dictionary key is not found.
+
+IndexError: This exception is raised when an index is out of range.
+
+NameError: This exception is raised when a local or global name is not found.
+
+FileNotFoundError: This exception is raised when a file or directory is requested but doesn't exist.
+
+ImportError: This exception is raised when an import statement fails.
+
+AttributeError: This exception is raised when an attribute reference or assignment fails.
+
+ModuleNotFoundError: This exception is raised when a module is not found.
+
+SyntaxError: This exception is raised when the parser encounters a syntax error.
+
+IndentationError: This exception is raised when there is incorrect indentation in Python code.
+
+MemoryError: This exception is raised when an operation runs out of memory.
+
+RecursionError: This exception is raised when the maximum recursion depth is exceeded.
+
