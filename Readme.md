@@ -153,4 +153,18 @@ Generate random from random  Have one input choice and compare with the computer
 For and while loops are implemented to repetetively do tasks. While loops are mainly used for situations where the computer doesn not know what to do. For loops are implemented when the computer is given a range of things or a defined approach.
 
 ## Args(args.py)
-Arguments : I call them the func vars. They can be called multiple times as args or in any order as u call the function and they are store as a tuple. Call bey index and use them.Have fun
+Arguments : I call them the func vars. They can be called multiple times as args or in any order as u call the function and they are store as a tuple. Call bey index and use them.Have fun.
+
+
+## Errors
+- Types of Errors
+1. Syntax Errors
+Occur when the Python parser encounters a syntax error in your code.
+Example: print("Hello World
+Handling: These need to be fixed in the code itself as they prevent the code from running.
+2. Runtime Errors
+Occur during execution and typically raise exceptions.
+Example: Division by zero, accessing a non-existent file.
+3. Logical Errors
+Occur when the code runs without errors but produces incorrect results.
+Example: Incorrectly implemented algorithm.
