@@ -202,3 +202,30 @@ MemoryError: This exception is raised when an operation runs out of memory.
 
 RecursionError: This exception is raised when the maximum recursion depth is exceeded.
 
+
+## Math Module(math.py)
+1. .Basic Arithmetic Operations:
+math.pow(x, y): Exponentiation (x raised to the power of y)
+math.sqrt(x): Square root of a number
+math.abs(x): Absolute value of a number
+2. .Trigonometric Functions:
+math.sin(x): Sine of an angle (in radians)
+math.cos(x): Cosine of an angle (in radians)
+math.tan(x): Tangent of an angle (in radians)
+math.asin(x): Arcsine of a number (in radians)
+math.acos(x): Arccosine of a number (in radians)
+math.atan(x): Arctangent of a number (in radians)
+math.atan2(y, x): Arctangent of y/x (in radians)
+math.degrees(x): Convert angle from radians to degrees
+math.radians(x): Convert angle from degrees to radians
+3. .Logarithmic and Exponential Functions:
+math.exp(x): Exponential of a number (e raised to the power of x)
+math.log(x): Natural logarithm of a number (log base e)
+math.log10(x): Base-10 logarithm of a number
+4. .Rounding and Floor Functions:
+math.ceil(x): Round up a number to the nearest integer
+math.floor(x): Round down a number to the nearest integer
+math.trunc(x): Remove the decimal part of a number
+5. .Mathematical Constants:
+math.pi: The value of the mathematical constant π (pi)
+math.e: The value of the mathematical constant e (Euler's number)
