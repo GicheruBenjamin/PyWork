@@ -89,6 +89,10 @@ class Bird(Animal):
     def __init__(self,tof):
         super(Bird, self).__init__()
         self.tof = tof
+        
+        
+chicken = Bird("red","chicken","homestead","maize")
+print(chicken.place_animal_eats())
     
     
     
