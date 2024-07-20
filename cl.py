@@ -83,5 +83,13 @@ class Animal:
     def cl_desc(self):
         return f"{self.name} is of color {self.color}"
     
+
+
+class Bird(Animal):
+    def __init__(self,tof):
+        super(Bird, self).__init__()
+        self.tof = tof
+    
+    
     
     
