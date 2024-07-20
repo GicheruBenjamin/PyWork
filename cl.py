@@ -72,3 +72,16 @@ employee_info = {
 
 employee = Employee(**employee_info)
 print(employee.get_employee_info())
+
+class Animal:
+    def __init__(self,color,name,habitat):
+        self.color = color
+        self.name = name
+        self.habitat =habitat
+    def place_animal_eats(self):
+        return f"{self.name} eats from {self.habitat}"
+    def cl_desc(self):
+        return f"{self.name} is of color {self.color}"
+    
+    
+    

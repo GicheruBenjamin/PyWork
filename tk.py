@@ -11,7 +11,6 @@ class myapp:
 
     def write_slogan(self):
         print("Tkinter is easy to use!")
-
 root = tk.Tk()
 app = myapp(root)
 root.mainloop()
