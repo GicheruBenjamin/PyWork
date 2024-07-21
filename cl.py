@@ -73,26 +73,33 @@ employee_info = {
 employee = Employee(**employee_info)
 print(employee.get_employee_info())
 
-class Animal:
-    def __init__(self,color,name,habitat):
-        self.color = color
-        self.name = name
-        self.habitat =habitat
-    def place_animal_eats(self):
-        return f"{self.name} eats from {self.habitat}"
-    def cl_desc(self):
-        return f"{self.name} is of color {self.color}"
-    
 
 
-class Bird(Animal):
-    def __init__(self,tof):
-        super(Bird, self).__init__()
-        self.tof = tof
-        
-        
-chicken = Bird("red","chicken","homestead","maize")
-print(chicken.place_animal_eats())
+class Shape:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def get_area(self):
+        return self.width * self.height
+
+    def get_perimeter(self):
+        return 2 * (self.width + self.height)
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        super().__init__(width, height)
+
+    def get_diagonal(self):
+        return ((self.width ** 2 + self.height ** 2) ** 0.5)
+
+# Creating instances and accessing attributes
+rectangle = Rectangle(width=5, height=3)
+print("Width:", rectangle.width)
+print("Height:", rectangle.height)
+print("Area:", rectangle.get_area())
+print("Perimeter:", rectangle.get_perimeter())
+print("Diagonal:", rectangle.get_diagonal())
     
     
     
