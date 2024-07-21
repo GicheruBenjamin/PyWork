@@ -130,3 +130,33 @@ flying_robot = FlyingRobot(model="XR-5000", species="Falcon")
 print("Model:", flying_robot.model)
 print("Species:", flying_robot.species)
 print("Actions:", flying_robot.perform_actions())    
+
+
+class Shape:
+    def __init__(self, sides):
+        self.sides = sides
+
+    def get_sides(self):
+        return self.sides
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        super().__init__(4)  # Calling grandparent class constructor
+        self.width = width
+        self.height = height
+
+    def get_area(self):
+        return self.width * self.height
+
+class Square(Rectangle):
+    def __init__(self, side_length):
+        super().__init__(side_length, side_length)
+
+    def is_square(self):
+        return self.width == self.height
+
+# Creating instances and accessing attributes
+square = Square(side_length=5)
+print("Number of sides:", square.get_sides())
+print("Area:", square.get_area())
+print("Is it a square?:", square.is_square())
