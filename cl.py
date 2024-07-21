@@ -103,4 +103,30 @@ print("Diagonal:", rectangle.get_diagonal())
     
     
     
-    
+class Robot:
+    def __init__(self, model):
+        self.model = model
+
+    def move(self):
+        return "Robot is moving."
+
+class Bird:
+    def __init__(self, species):
+        self.species = species
+
+    def fly(self):
+        return "Bird is flying."
+
+class FlyingRobot(Robot, Bird):
+    def __init__(self, model, species):
+        Robot.__init__(self, model)
+        Bird.__init__(self, species)
+
+    def perform_actions(self):
+        return f"Robot is {self.move()}, and it can also {self.fly()}."
+
+# Creating instances and accessing attributes
+flying_robot = FlyingRobot(model="XR-5000", species="Falcon")
+print("Model:", flying_robot.model)
+print("Species:", flying_robot.species)
+print("Actions:", flying_robot.perform_actions())    
