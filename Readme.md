@@ -153,7 +153,7 @@ Generate random from random  Have one input choice and compare with the computer
 For and while loops are implemented to repetetively do tasks. While loops are mainly used for situations where the computer doesn not know what to do. For loops are implemented when the computer is given a range of things or a defined approach.
 
 ## Args(args.py)
-Arguments : I call them the func vars. They can be called multiple times as args or in any order as u call the function and they are store as a tuple. Call bey index and use them.Have fun.
+Arguments : I call them the func vars. They can be called multiple times as args or in any order as u call the function and they are store as a tuple. Call bey index and use them.Have fun.*args are also used in classes. To ensure good documentationin your type use the any type to ensure no issues.
 
 
 ## Errors
