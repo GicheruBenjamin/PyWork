@@ -13,4 +13,16 @@ def hiswork(*args):
     return f"I worked on {args[0]} at {args[1]} and it was {args[2]}"
 
 dani_day = hiswork("Tuesday", 8, "windy")
-print(dani_day)
+print(dani_day)   
+
+class Printer:
+    def __init__(self, *args:any):
+        self.name = args[0]
+        self.manfdate = args[1]
+        self.version = args[2]
+    def give_info(self):
+        return f"{self.name}:{self.manfdate}:{self.version}"
+
+
+my_printer = Printer("Epson",2021,"L3050")
+print(my_printer.give_info())
