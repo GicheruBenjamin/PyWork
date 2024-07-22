@@ -26,3 +26,4 @@ class Printer:
 
 my_printer = Printer("Epson",2021,"L3050")
 print(my_printer.give_info())
+
