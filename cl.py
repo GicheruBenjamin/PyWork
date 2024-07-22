@@ -160,3 +160,11 @@ square = Square(side_length=5)
 print("Number of sides:", square.get_sides())
 print("Area:", square.get_area())
 print("Is it a square?:", square.is_square())
+
+
+class Ops:
+    @staticmethod
+    def add(arg1, arg2):
+        return arg1 + arg2
+
+print(Ops.add(55, 77))
