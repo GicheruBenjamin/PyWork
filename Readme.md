@@ -122,6 +122,8 @@ There are several ways to work with files. 1st the usual way by .open & .close. 
 Composition involves defining a class that includes instances of other classes as its attributes. This allows you to create complex objects by combining simpler objects. The composite class can provide methods and properties that interact with the contained instances, offering a higher level of abstraction and functionality.In the code, I have three classes: Address, Person, and Employee. The Employee class demonstrates composition by containing instances of the Person and Address classes as its attributes. The Employee class provides a higher-level abstraction by encapsulating the Person and Address instances and offering a method to retrieve employee information. 
 - @staticmethod decorartor 
 Sometimes one is required to provide methods or want things that make sense to be coupled together to reduce some issues as I have demonstrated in dicts.py where one can create a dict with lambda functions. But one can couple functions in one class and the good thing is that it is not confined as a template.
+- Class variables
+Sometimes it required to manipulate the class from inside. This can be achieved by using variable that don't refer to self. They are good since they aren't needed inoder for an actual object definition.
 
 ## Caching(cache.py)
 In the commented example it takes long time to finish the operation but due to use of lru cache from func_tools it takes less time to complete the operation in the operation.

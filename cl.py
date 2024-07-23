@@ -179,3 +179,6 @@ class Boutique:
     
 Favbq: Boutique = Boutique("Lanphil", "Tokyo")
 print(Boutique.bik) 
+Wifbq: Boutique = Boutique("GD", "paris")
+print(Boutique.bik)
+
