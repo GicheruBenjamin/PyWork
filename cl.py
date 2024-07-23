@@ -168,3 +168,14 @@ class Ops:
         return arg1 + arg2
 
 print(Ops.add(55, 77))
+
+
+class Boutique:
+    bik:int = 0 #Boutiques I know
+    def __init__(self, name:str, location: str):
+        self.name = name
+        self.location = location
+        Boutique.bik += 1
+    
+Favbq: Boutique = Boutique("Lanphil", "Tokyo")
+print(Boutique.bik) 
