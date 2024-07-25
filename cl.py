@@ -202,7 +202,39 @@ class Shop(Business):
     def __init__(self, name:str,location:str):
         super().__init__(name,location)
     def showlocation(self):
+        
         return self.location
     
 uncles_shop: Shop = Shop("Arkposho","Brasil")
 print(uncles_shop.showlocation())
+
+class Employee:
+    no_of_employees:int = 0
+    def __init__(self,name: str, salary: int, work_type: str):
+        self.name = name
+        self.salary = salary
+        self.work_type = work_type
+        Employee.no_of_employees += 1
+    @abstractmethod
+    def get_info(self):
+        pass   
+class Developer(Employee):
+    def __init__(self, name: str, salary: int, work_type: str):
+        super().__init__(name, salary, work_type)
+        
+    def get_info(self):
+        return f'Name: {self.name}, Salary: {self.salary}, Work type: {self.work_type}'
+    
+class Designer(Employee):
+    def __init__(self, name: str, salary: int, work_type: str):
+        super().__init__(name, salary, work_type)
+        
+    def get_info(self):
+        return f"Name: {self.name}, Salary: {self.salary}, Work type: {self.work_type}"
+    
+Josh:Developer = Developer("Joshua", 20000, "Developer")
+Jane:Designer = Designer("Jane", 15000, "Designer")
+
+print(Josh.get_info())
+print(Jane.get_info())
+print(Employee.no_of_employees)
