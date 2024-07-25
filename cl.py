@@ -182,3 +182,27 @@ print(Boutique.bik)
 Wifbq: Boutique = Boutique("GD", "paris")
 print(Boutique.bik)
 
+
+from abc import ABC, abstractmethod
+
+class Business(ABC):
+    def __init__(self, name:str,location:str):
+        self.name = name
+        self.location = location
+
+    @abstractmethod
+    def showlocation(self):
+        pass
+
+
+class Shop(Business):
+    '''This class inherits from Business class
+    It ensures that it uses the showlocation method because 
+    it is an abstract method'''
+    def __init__(self, name:str,location:str):
+        super().__init__(name,location)
+    def showlocation(self):
+        return self.location
+    
+uncles_shop: Shop = Shop("Arkposho","Brasil")
+print(uncles_shop.showlocation())
