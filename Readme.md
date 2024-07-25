@@ -124,6 +124,10 @@ Composition involves defining a class that includes instances of other classes a
 Sometimes one is required to provide methods or want things that make sense to be coupled together to reduce some issues as I have demonstrated in dicts.py where one can create a dict with lambda functions. But one can couple functions in one class and the good thing is that it is not confined as a template.
 - Class attributes
 Sometimes it required to manipulate the class from inside. This can be achieved by using attrs that don't refer to self. They are good since they aren't needed inoder for an actual object definition.
+- @abstactmethod
+Smetimes u need to ensure that all that is in the main blueprint is in all blueprints. I mea all methods are used in the inherited classes.
+You import abstactmethod from abc moduleand then use it inside the mai class and ten u use th abstract methods in the child classes.
+
 
 ## Caching(cache.py)
 In the commented example it takes long time to finish the operation but due to use of lru cache from func_tools it takes less time to complete the operation in the operation.
