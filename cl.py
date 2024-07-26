@@ -238,3 +238,21 @@ Jane:Designer = Designer("Jane", 15000, "Designer")
 print(Josh.get_info())
 print(Jane.get_info())
 print(Employee.no_of_employees)
+
+class Company:  
+    def __init__(self, name:str, location:str):
+        self.name = name
+        self.location = location
+    def giveinfo(self):
+        return{"name": self.name, "location":self.location}
+    
+class TechCo(Company):
+    def __init__(self, name:str, location:str):
+        super().__init__(name, location)
+    def giveinfo(self):
+        return super().giveinfo()
+        
+        
+Apple:TechCo = TechCo("Apple", "California")
+print(Apple.giveinfo())        
+        
