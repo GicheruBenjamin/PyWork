@@ -211,6 +211,30 @@ MemoryError: This exception is raised when an operation runs out of memory.
 RecursionError: This exception is raised when the maximum recursion depth is exceeded.
 
 
+SyntaxError: Occurs when there is incorrect syntax in the code.
+IndentationError: Triggered by improper indentation.
+TypeError: Raised when an operation is applied to an object of inappropriate type.
+NameError: Occurs when a variable or function name is not found.
+IndexError: Happens when accessing an index out of a sequence's range.
+ValueError: Raised when a function receives an argument of the correct type but an inappropriate value.
+KeyError: Triggered when a dictionary key is not found.
+AttributeError: Raised when an attribute reference or assignment fails.
+ImportError: Occurs when an import statement fails to find the module.
+ModuleNotFoundError: A subclass of ImportError raised when a module is not found.
+ZeroDivisionError: Happens when dividing by zero.
+FileNotFoundError: Triggered when attempting to open a non-existent file.
+IOError: Raised when an I/O operation fails.
+AssertionError: Occurs when an assert statement fails.
+RuntimeError: A general error indicating a runtime issue that is not covered by other exceptions.
+StopIteration: Raised to signal the end of an iterator's sequence.
+OverflowError: Happens when a calculation exceeds the maximum limit for a numeric type.
+MemoryError: Triggered when an operation runs out of memory.
+NotImplementedError: Occurs when an abstract method is not implemented in a subclass.
+EOFError: Raised when input() reaches the end of a file unexpectedly.
+FloatingPointError: Happens when a floating-point operation fails.
+These are the most common Python-specific errors you might encounter while coding.
+
+
 ## Math Module(math.py)
 1. .Basic Arithmetic Operations:
 math.pow(x, y): Exponentiation (x raised to the power of y)
