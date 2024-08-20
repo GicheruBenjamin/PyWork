@@ -6,3 +6,6 @@ while i < 3:
     
 for i in range(0,12):
     print(i)
+    
+for k in range(0,12,2):
+    print(f"{k} is an even number")
