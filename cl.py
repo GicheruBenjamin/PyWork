@@ -255,4 +255,51 @@ class TechCo(Company):
         
 Apple:TechCo = TechCo("Apple", "California")
 print(Apple.giveinfo())        
-        
+  class SequenceDemo:
+    def __init__(self, sequence):
+        self.sequence = sequence
+
+    def __len__(self):
+        return len(self.sequence)
+
+    def __getitem__(self, index):
+        return self.sequence[index]
+
+    def __iter__(self):
+        return iter(self.sequence)
+
+    def __contains__(self, item):
+        return item in self.sequence
+
+    def __add__(self, other):
+        return SequenceDemo(self.sequence + other.sequence)
+
+    def __mul__(self, other):
+        return SequenceDemo(self.sequence * other)
+
+    def __repr__(self):
+        return f"SequenceDemo({repr(self.sequence)})"
+
+# Create instances of SequenceDemo
+sequence2 = SequenceDemo(["a", "b", "c"])
+
+# Access elements using indexing
+print(sequence1[0])  # Output: 1
+print(sequence2[1])  # Output: b
+
+# Iterate over elements
+for item in sequence1:
+    print(item)  # Output: 1 2 3
+
+# Check if an element is in the sequence
+print(3 in sequence1)  # Output: True
+print("d" in sequence2)  # Output: False
+
+# Concatenate sequences
+sequence3 = sequence1 + sequence2
+print(sequence3)  # Output: SequenceDemo([1, 2, 3, 'a', 'b', 'c'])
+
+# Repeat a sequence
+sequence4 = sequence1 * 2
+print(sequence4)  # Output: SequenceDemo([1, 2, 3, 1, 2, 3])
+      
