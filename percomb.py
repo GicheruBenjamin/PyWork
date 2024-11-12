@@ -4,6 +4,7 @@ from itertools import combinations, permutations
 
 # Example set of elements
 elements = [1, 2, 3]
+print (elements)
 
 # Generate and print combinations of size 2
 print("Combinations of size 2:")
