@@ -261,3 +261,44 @@ math.trunc(x): Remove the decimal part of a number
 5. .Mathematical Constants:
 math.pi: The value of the mathematical constant π (pi)
 math.e: The value of the mathematical constant e (Euler's number)
+
+
+## Official Docs
+https://docs.python.org/3/library/index.html
+- Data types
+ --- Data types ----
+
+ https://docs.python.org/3/library/stdtypes.html
+
+ Numbers
+ https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
+
+ https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
+
+ Booleans
+ https://docs.python.org/3/library/stdtypes.html#boolean-values
+
+ None
+ https://docs.python.org/3/library/stdtypes.html#the-none-object
+
+ Tuples
+ https://docs.python.org/3/library/stdtypes.html#tuples-sequence-types-t
+
+ Lists
+ https://docs.python.org/3/library/stdtypes.html#lists-sequences
+
+ Dictionaries
+ https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
+
+ Sets
+ https://docs.python.org/3/library/stdtypes.html#set-types-frozenset
+
+ Functions
+ https://docs.python.org/3/library/stdtypes.html#functions-types-lambda
+
+
+## Python basics cli(/basic)
+```bash
+python3 -m basic.main
+```
+Open it and see..
